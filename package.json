@@ -1,0 +1,24 @@
+{
+  "name": "gulp-entwine",
+  "version": "1.0.0",
+  "description": "Turn your string to string functions into gulp plugins",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hodavidhara/gulp-entwine.git"
+  },
+  "main": "gulp-entwine.js",
+  "scripts": {
+    "test": "tape test/**/*"
+  },
+  "author": "David Hara <hodavidhara@gmail.com> (http://hodavidhara.com)",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "stream-array": "^1.1.1",
+    "tape": "^4.5.1",
+    "vinyl": "^1.1.1"
+  }
+}
